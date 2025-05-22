@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+:root {
+  --primary-color: #6c25ff;
+  --secondary-color: #ceb0ff;
+  --text-dark: #1d1d1d;
+  --text-medium: #666;
+  --text-light: #999;
+}
