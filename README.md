@@ -1,12 +1,58 @@
-# React + Vite
+# PopX Account App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple account management web app built with React. Users can sign up, log in, and view their account settings.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ✅ User Signup Form  
+- 🔐 Login Page  
+- 👤 Account Settings with dynamic user display  
+- 📱 Mobile-friendly layout  
+- 🌐 Deployed on Vercel  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧩 Technologies Used
+
+- [React](https://reactjs.org/ ) – Frontend framework  
+- [React Router DOM](https://reactrouter.com/ ) – For routing  
+- [Vercel](https://vercel.com/ ) – Hosting / Deployment  
+- HTML5 & CSS3  
+- Font Awesome – For icons  
+
+---
+
+## 📁 Project Structure
+/popx-account-app
+│
+├── public/
+│ └── index.html
+│
+├── src/
+│ ├── components/
+│ │ └── AccountSettings.jsx
+│ ├── pages/
+│ │ └── Signup.jsx
+│ │ └── Login.jsx
+│ ├── styles/
+│ │ └── App.css
+│ └── App.js
+│ └── index.js
+│
+├── package.json
+├── README.md
+└── .gitignore
+
+---
+
+## 📦 How to Run Locally
+
+1. **Clone the repo**
+
+```bash
+git clone https://github.com/your-username/popx-account-app.git 
+cd popx-account-app
+npm install
+npm run dev
